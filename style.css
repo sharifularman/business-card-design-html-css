@@ -1,11 +1,20 @@
 .card{
     padding: 20px;
-    width: 60%;
+    width: 40%;
+    height: 50%;
     margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
     display: flex;
     /* justify-content: space-between; */
+    gap: 50px;
     align-items: center;
-    border: 1px dotted blue;
+    background-color: #91C4C3;
+}
+.vertical-line{
+    height: 150px;
+    width: 2px;
+    background: #432323;
 }
 .image img{
     width: 200px;
